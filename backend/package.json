@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "golinks-hackday backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "David Zhang",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "type": "module" 
+}

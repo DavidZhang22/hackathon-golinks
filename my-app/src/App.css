@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 60px;
+  pointer-events: none;
+  
+  border-radius: 40px;
+}
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 10px;
+}
+
+.App-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  width: 70vw;
+  height: fit-content;
+  margin-top: 20px;
+}
+
+.App-input {
+
+  margin-top:50px;
+
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #787ba4;
+  padding: 9px;
+  cursor: text;
+  color: rgb(253, 253, 253);
+
+}
+
+::placeholder {
+  color: rgb(64, 58, 136);
+  opacity: 1; /* Firefox */
+}
+
+.input-wrapper input:focus {
+  outline-color: lightcoral;
+}
+
+.App-content {
+
+  width: 70vw;
+  height: fit-content;
+  margin-top: 20px;
+}
+
+.App-link {
+  color: #1ebae509;
+}
+
+.text-sm {
+  font-size: 12px;
+  padding: 3px;
+}
+
+.App-col2 {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  padding-left:20px;
+  padding-right:20px;
+  height: fit-content;
+  margin-top: 20px;
+
+}
+
+.App-button {
+
+  margin-top: 10px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  color: rgb(60, 66, 87);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 8px;
+  display: inline-block;
+  min-height: 28px;
+  transition: background-color .24s,box-shadow .24s;
+  :hover {
+      box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 3px 9px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+  }
+
+}
+
+
+.lg-text {
+  padding: 7px;
+  color:rgb(127, 121, 155)
+}
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
